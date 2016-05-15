@@ -7,7 +7,7 @@ Feature: Login feature for OrangeHRM site
   @login
   Scenario: Admin can able to login successfully with valid credentials
     Given Admin is on login page
-    When Admin enters username as "admin" and password as "password"
+    When Admin enters username as "admin" and password as "aediMNjU"
     And Admin selects login
     Then Admin should login successfully
     And Admin should see welcome message as "Welcome Admin"
